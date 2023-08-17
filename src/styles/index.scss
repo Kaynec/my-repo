@@ -1,0 +1,85 @@
+@font-face {
+  background: #8d99ae5d;
+  background: rgb(141, 153, 174);
+  font-family: 'Sahel HD';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/Sahel/Sahel-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahel HD';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/Sahel/Sahel-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahel HD';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/Sahel/Sahel-Bold-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahel HD';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/Sahel/Sahel-Bold-FD.ttf') format('truetype');
+}
+
+//
+@font-face {
+  background: #8d99ae5d;
+  background: rgb(141, 153, 174);
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/peyda/Peyda-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/peyda/Peyda-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/peyda/Peyda-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/peyda/Peyda-ExtraBold.ttf') format('truetype');
+}
+
+.sahel {
+  font-family: 'Sahel HD' !important;
+}
+
+.peyda {
+  font-family: peyda !important;
+}
+
+body {
+  font-family: 'Sahel HD' !important;
+}
+
+.v-application .v-application--wrap * {
+  font-family: 'Sahel HD' !important;
+}
+
+a {
+  text-decoration: none;
+}
+.v-table__wrapper {
+  thead {
+    background-color: #f5f5f7;
+  }
+}
